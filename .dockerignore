@@ -7,23 +7,23 @@ target/
 # Temp files
 *.tmp
 
-# IDE
+# Uploads (runtime files)
+uploads/
+
+# Build outputs
+dist/
+
+# Node (if frontend exists)
+node_modules/
+frontend/node_modules/
+
+# IDE (Eclipse / IntelliJ)
 .idea/
 *.iml
 .classpath
 .project
 .settings/
 
-# Node (if frontend inside project)
-node_modules/
-frontend/node_modules/
-
-# Build outputs
-dist/
-
-# Uploads (optional, if runtime generated)
-uploads/
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
