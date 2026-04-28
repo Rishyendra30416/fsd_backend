@@ -1,11 +1,29 @@
-target
-.git
-.gitignore
-node_modules
-.idea
+# Maven
+target/
+
+# Logs
 *.log
+
+# Temp files
 *.tmp
-uploads
-dist
-frontend/node_modules
-**/*.iml
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Node (if frontend inside project)
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+
+# Uploads (optional, if runtime generated)
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
