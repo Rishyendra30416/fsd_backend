@@ -1,0 +1,29 @@
+# Maven
+target/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# Uploads (runtime files)
+uploads/
+
+# Build outputs
+dist/
+
+# Node (if frontend exists)
+node_modules/
+frontend/node_modules/
+
+# IDE (Eclipse / IntelliJ)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
